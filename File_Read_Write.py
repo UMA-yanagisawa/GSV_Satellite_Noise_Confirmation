@@ -33,6 +33,10 @@ class Open_file():
         #print(SET_NAME)
         return SET_NAME
 
+    def Mess(self):
+        dialog = wx.MessageDialog(None,message="NMEA Protocol Is it version 4.1 or higher?",caption="NMEA Protocol 確認")
+        dialog.ShowModal()
+
 
 #**********************************************************************************
 #---使用サンプル---******************************************************************
